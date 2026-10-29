@@ -1,0 +1,28 @@
+{
+    "version": "0.4.1",
+    "description": "Vector editor",
+    "homepage": "https://stakovicz.github.io/plume/",
+    "license": "MIT",
+    "notes": "Plume needs Microsoft Edge WebView2, included in Windows 11 and updated Windows 10.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/stakovicz/plume/releases/download/v0.4.1/Plume_0.4.1_x64_en-US.msi",
+            "hash": "24485f994763abfab9dba840450acb76b048eae8599c5a5bb68a5f690c0a0b2d"
+        }
+    },
+    "extract_dir": "PFiles\\Plume",
+    "shortcuts": [
+        [
+            "plume.exe",
+            "Plume"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/stakovicz/plume/releases/download/v$version/Plume_$version_x64_en-US.msi"
+            }
+        }
+    }
+}
