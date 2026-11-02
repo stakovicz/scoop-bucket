@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/stakovicz/plume/releases/download/v0.4.1/Plume_0.4.1_x64_en-US.msi",
-            "hash": "24485f994763abfab9dba840450acb76b048eae8599c5a5bb68a5f690c0a0b2d"
+            "hash": "771a5b6ab5c9bfe95e288a05dbc1cb0bf15631b4196515fd7615e894387fd1a9"
         }
     },
     "extract_dir": "PFiles\\Plume",
